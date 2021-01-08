@@ -21,4 +21,8 @@ public class TourService {
 		
 		return status;
 	}
+	
+	private int deleteTour(Tour tour) {
+		return 20;
+	}
 }
