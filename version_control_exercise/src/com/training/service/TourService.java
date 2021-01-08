@@ -17,7 +17,7 @@ public class TourService {
 	public int updateTour(Tour tour) {
 
 		int status = 0;
-
+		status  = status + 1;
 		return status;
 	}
 }
