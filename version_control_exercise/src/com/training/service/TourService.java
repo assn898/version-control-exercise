@@ -4,7 +4,7 @@ import com.training.model.Tour;
 
 public class TourService {
 
-	public int tourAdded(Tour tour){
+	public int addTour(Tour tour){
 		int status = 0;
 		
 		if(tour!=null) {
@@ -12,5 +12,11 @@ public class TourService {
 		}
 		
 		return status;	
+	}
+	
+	public int updateTour(Tour tour) {
+		int status = 0;
+		
+		return status;
 	}
 }
