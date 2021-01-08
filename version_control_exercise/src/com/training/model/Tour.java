@@ -10,7 +10,7 @@ public class Tour {
 	
 	public Tour() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public Tour(int tourId, String tourName, double duration, double cost) {
